@@ -7,7 +7,6 @@ soup = bs(html.text,'html.parser')
 html.close()
 
 data1_list = soup.findAll('div',{'class':'col_inner'})
-pprint(len(data1_list))
 
 week_title_list = []
 
