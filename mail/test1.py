@@ -3,7 +3,7 @@ from email.mime.text import MIMEText
 
 sendEmail = "jsh1938@gmail.com"
 recvEmail = "yoolee5526@naver.com"
-password = "jsh!1400512"
+password = "input password"
 
 smtpName = "smtp.gmail.com"
 smtpPort = 587
