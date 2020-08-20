@@ -20,7 +20,7 @@ text = "메일 내용"
 contentpart = MIMEText(text)
 msg.attach(contentpart)
 
-etcFileName = '소마.png'
+etcFileName = ''
 with open(etcFileName, 'rb') as etcFD :
     etcPart = MIMEApplication(etcFD.read())
     etcPart.add_header('Content-Disposition', 'attachment', filename=etcFileName)
