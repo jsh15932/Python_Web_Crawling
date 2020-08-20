@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome('chromedriver')
+driver = webdriver.Chrome(executable_path='C:/Users/User/Desktop/Project/0805/01 bs4/chromedriver')
 driver.get("https://www.youtube.com/")
 
 time.sleep(3)
