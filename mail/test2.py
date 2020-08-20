@@ -5,7 +5,7 @@ from email.mime.application import MIMEApplication
 
 sendEmail = "jsh1938@gmail.com"
 recvEmail = "jsh1400512@naver.com"
-password = "jsh!1400512"
+password = "input password"
 
 smtpName = "smtp.gmail.com"
 smtpPort = 587
